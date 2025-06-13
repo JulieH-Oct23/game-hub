@@ -1,5 +1,5 @@
 import { List, HStack, ListItem, Image } from "@chakra-ui/react";
-import useGenres from "../hooks/useGenres";
+import useGenres from "../hooks/useGenre";
 import getCroppedImageUrl from "../services/image-url";
 
 const GenreList = () => {
